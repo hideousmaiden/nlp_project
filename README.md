@@ -1,5 +1,4 @@
 # nlp_project
-HSE Computational Linguistics 4th year final project
 [Тетрадка](nlp_evaluation.ipynb) с запуском на тестовых данных.
 
 ## ABTE
