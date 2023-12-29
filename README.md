@@ -31,7 +31,7 @@ NB: лосс на трейне считался через `CrossEntropyLoss` н
 2. Нельзя большие батчи, так как иначе ни одно GPU не выдерживает.
 3. В какой-то момент начинаются беды с лоссом, потому что он стагнируется.
 
-[Здесь](https://drive.google.com/drive/folders/14UNHmf1qIIm9TXMEogwSKYSNhsU36YB5?usp=sharing) лежат модели и нужные данные. 
+[Здесь](https://drive.google.com/drive/folders/14UNHmf1qIIm9TXMEogwSKYSNhsU36YB5?usp=sharing) лежат модели и нужные данные. А в файле `utils_for_abte.py` находятся всякие вспомогательные функции.
 
 ## Тональность по категориям 
 
