@@ -10,9 +10,7 @@ from tqdm.notebook import tqdm
 from transformers import AutoModel, AutoTokenizer, get_linear_schedule_with_warmup
 
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, f1_score
-
-import matplotlib.pyplot as plt
+from sklearn.metrics import accuracy_score
 
 
 class ABSADataset():
