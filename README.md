@@ -21,9 +21,11 @@ NB: лосс на трейне считался через `CrossEntropyLoss` н
 Мы использовали два способа:
 1. out-of-the-box решение с помощью [PyABSA](https://pyabsa.readthedocs.io/en/latest/#): см. `absa_pyabsa.py` или [тетрадку](https://www.kaggle.com/code/smthhappens/nlp-project-absa).
 2. при помощи BERT и маскирования аспектных слов: см. `absa_bert.py` или [тетрадку](https://colab.research.google.com/drive/1mtp-J_70KhlKtId0quk6fyw2onOROrUI?usp=sharing).
+
 **Проблемы PyABSA**:
 1. Есть только три класса тональности (нет *both*).
 2. ~~Нельзя~~ Очень сложно дообучить (свой формат датасетов...).
+
 **Проблемы BERT**:
 1. Долго
 2. Нельзя большие батчи, так как иначе ни одно GPU не выдерживает.
