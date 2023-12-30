@@ -3,7 +3,8 @@
 
 **UPD**: 
 1. Запуск всех наших моделей на тестовых данных можно увидеть в немного обновленной [тетрадке](nlp_evaluation.ipynb)!
-2. В тетрадке `accuracy_for_categories_new.ipynb` также находится запуск отпределения тональности по категориям, а в файле `test_cats_predictions.txt` его результат.
+2. Ответы на вопрос в [доке](https://docs.google.com/document/d/1_1ByKY-KZXYPOWuvRbut7W5aePhsTlOIYfEPeQl0JPo/edit?usp=sharing) (а совет принят во внимание...).
+3. В тетрадке `accuracy_for_categories_new.ipynb` также находится запуск отпределения тональности по категориям, а в файле `test_cats_predictions.txt` его результат.
 
 ## ABTE
 Для выделения аспектов мы пользовались натренированной на русском `RuBert`, и дообучали её двумя способами. Первое - полноценный файнтьюн на наших данных. Второе - дообучение последнего слоя через библиотеку [`adapters`](https://docs.adapterhub.ml/model_overview.html). Скелет модели и идею обучения мы взяли [отсюда](https://github.com/nicolezattarin/BERT-Aspect-Based-Sentiment-Analysis/tree/main), и переделали саму модель, чтобы она могла работать с токенизатором, который умеет в спаны, и работала с нашим количеством классов.
